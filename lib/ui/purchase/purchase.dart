@@ -254,7 +254,7 @@ class _PurchasePageState extends State<PurchasePage>
                                                 BlocProvider.of<PurchaseBloc>(context).add(SavePurchaseEvent(purchase));
                                               }
                                             },
-                                            child: Text('Submit')
+                                            child: Text('Submit', style: TextStyle(color: Colors.red.shade300, fontFamily: 'ProximaNova'))
                                         ),
                                       )
                                     ],
